@@ -1,0 +1,9 @@
+{
+  "itemId": "",
+  "files": [
+    "2_Sample_Mp4.mp4"
+  ],
+  "expirationInDays": 2,
+  "tier": "Standard",
+  "bucketName": "mc-main-qa"
+}
