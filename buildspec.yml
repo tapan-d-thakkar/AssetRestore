@@ -1,0 +1,18 @@
+version:  0.1
+phases:
+  install:
+    commands:
+      - echo no action to take in install phase.
+  pre_build:
+    commands:
+      - echo no action to take in pre_build phase.
+  build:
+    commands:
+      - echo Build started on `date`
+      - mvn install
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - target/assetrestore-1.0.0.jar
